@@ -4804,81 +4804,73 @@ td:last-child {
 
 .timeline.pro {
     position: relative;
-    max-width: 1200px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
-.timeline.pro .timeline-container {
-    position: relative;
-    padding: 0 10px;
-}
-
-.timeline.pro .timeline-item {
-    padding: 10px 20px;
-    position: relative;
-    width: 50%;
-}
-
-/* Alternate positioning */
-.timeline.pro .left {
-    left: 0;
-}
-
-.timeline.pro .right {
-    left: 50%;
-}
-
-/* Styling the connecting line */
-.timeline.pro::before {
+.timeline.pro::after {
     content: '';
     position: absolute;
     width: 2px;
-    background-color: #ccc;
+    background-color: #3498db;
     top: 0;
     bottom: 0;
     left: 50%;
     margin-left: -1px;
 }
 
-/* Styling the content box */
-.timeline.pro .timeline-item .content {
-    padding: 20px;
-    background-color: #fff;
+.timeline.pro .timeline-item {
+    padding: 10px 40px;
     position: relative;
-    border-radius: 6px;
-    border: 1px solid #ddd;
+    width: 50%;
+    left: 50%;
 }
 
-/* Connecting circles */
-.timeline.pro .timeline-item::before {
+.timeline.pro .timeline-item::after {
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    border: 4px solid #ccc;
-    top: 20px;
-    left: -10px;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #3498db;
+    top: 15px;
     border-radius: 50%;
     z-index: 1;
 }
 
-.timeline.pro .timeline-item.right::before {
+.timeline.pro .timeline-item:nth-child(odd) {
+    left: 0;
+}
+
+.timeline.pro .timeline-item:nth-child(odd)::before {
+    content: '';
+    position: absolute;
+    top: 22px;
+    right: -30px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-left-color: #3498db;
+    z-index: 1;
+}
+
+.timeline.pro .timeline-item:nth-child(even)::before {
+    content: '';
+    position: absolute;
+    top: 22px;
     left: -30px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-right-color: #3498db;
+    z-index: 1;
 }
 
-.timeline.pro .timeline-item.left .content {
-    margin-right: 0;
-    margin-left: 20px;
-}
-
-.timeline.pro .timeline-item.right .content {
-    margin-left: 0;
-    margin-right: 20px;
-}
-
-/* Hover effects */
-.timeline.pro .timeline-item .content:hover {
-    background-color: #f9f9f9;
-    border-color: #333;
+.timeline.pro .timeline-content {
+    padding: 20px;
+    background-color: #3498db;
+    position: relative;
+    border-radius: 6px;
+    color: white;
 }
