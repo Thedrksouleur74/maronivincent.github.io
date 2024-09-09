@@ -4746,6 +4746,7 @@ td:last-child {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
     position: relative;
     border-top: 2px solid #ddd;
 	margin-left: 10%;
