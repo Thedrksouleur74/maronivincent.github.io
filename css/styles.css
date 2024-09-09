@@ -4800,77 +4800,53 @@ td:last-child {
 }
 
 
-/* time line pto*/
+/* time line pro*/
 
-.timeline.pro {
-    position: relative;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.timeline.pro::after {
-    content: '';
-    position: absolute;
-    width: 2px;
-    background-color: #3498db;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -1px;
-}
-
-.timeline.pro .timeline-item {
-    padding: 10px 40px;
-    position: relative;
-    width: 50%;
-    left: 50%;
-}
-
-.timeline.pro .timeline-item::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: white;
-    border: 4px solid #3498db;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-.timeline.pro .timeline-item:nth-child(odd) {
-    left: 0;
-}
-
-.timeline.pro .timeline-item:nth-child(odd)::before {
-    content: '';
-    position: absolute;
-    top: 22px;
-    right: -30px;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-left-color: #3498db;
-    z-index: 1;
-}
-
-.timeline.pro .timeline-item:nth-child(even)::before {
-    content: '';
-    position: absolute;
-    top: 22px;
-    left: -30px;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-right-color: #3498db;
-    z-index: 1;
-}
-
-.timeline.pro .timeline-content {
-    padding: 20px;
-    background-color: #3498db;
-    position: relative;
-    border-radius: 6px;
-    color: white;
-}
+.timeline-pro.timeline {
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+  }
+  
+  .timeline-pro.container {
+	padding: 10px 40px;
+	position: relative;
+	background-color: inherit;
+	width: 50%;
+	margin: 10px 0;
+	right: -50%;
+  }
+  
+  .timeline-pro.container::after {
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	right: -17px;
+	background-color: white;
+	border: 4px solid #FF9F55;
+	top: 15px;
+	border-radius: 50%;
+	z-index: 1;
+  }
+  
+  .timeline-pro.content {
+	padding: 20px;
+	background-color: white;
+	position: relative;
+	border-radius: 6px;
+  }
+  
+  .timeline-pro.content h2 {
+	margin: 0;
+	font-size: 20px;
+  }
+  
+  .timeline-pro.content p {
+	margin: 10px 0 0;
+  }
+  
+  .timeline-pro.container:nth-child(odd) .timeline-pro.content {
+	background-color: #f9f9f9;
+  }
+  
