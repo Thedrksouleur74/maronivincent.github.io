@@ -4740,3 +4740,62 @@ td:last-child {
 .contact-list li {
 	padding-left: 0;
 }
+
+/* Timeline container */
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    position: relative;
+    border-top: 2px solid #ddd;
+}
+
+/* Timeline item */
+.timeline-item {
+    position: relative;
+    width: 33%;
+    text-align: center;
+}
+
+/* Timeline item active */
+.timeline-item.active::before {
+    content: "";
+    background-color: #3498db;
+    border: 3px solid #3498db;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    top: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 14px;
+    height: 14px;
+    background-color: #ddd;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-item.active .timeline-content h3 {
+    color: #3498db;
+}
+
+/* Timeline content */
+.timeline-content {
+    padding-top: 10px;
+}
+
+.timeline-content h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.timeline-content p {
+    font-size: 14px;
+    color: #777;
+}
