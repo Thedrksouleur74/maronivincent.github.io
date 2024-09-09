@@ -4750,6 +4750,8 @@ td:last-child {
     padding: 20px 0;
     position: relative;
     border-top: 2px solid #ddd;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 /* Timeline item */
