@@ -3946,8 +3946,6 @@ td:last-child {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-	padding-top     : var(--vspace-6);
-	padding-bottom  : var(--vspace-6);
 	background-color: var(--color-2-dark);
 	color           : var(--color-3);
 }
