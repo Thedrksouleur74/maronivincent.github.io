@@ -4887,7 +4887,7 @@ td:last-child {
 }
 
 .javascript {
-    width: 90%;
+    width: 65%;
     background-color:yellow;
 	color:#000000;
 }
@@ -4909,7 +4909,7 @@ td:last-child {
 }
 
 .php {
-    width: 65%;
+    width: 90%;
     background-color: violet;
 	color:#000000;
 }
