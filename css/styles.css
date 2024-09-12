@@ -4848,6 +4848,13 @@ td:last-child {
     color: #333;
 }
 
+/* skill bars*/
+
+.skills-section {
+    margin-top: 40px;
+}
+
+/* Barres de compétences */
 .skill {
     margin-bottom: 20px;
 }
@@ -4892,4 +4899,3 @@ td:last-child {
     width: 70%;
     background-color: #b07219;
 }
-
