@@ -4874,28 +4874,28 @@ td:last-child {
     border-radius: 25px;
 }
 
-.html {
+.progress .html {
     width: 90%;
     background-color: #e34c26;
 }
 
-.css {
+.progress .css {
     width: 80%;
     background-color: #264de4;
 }
 
-.js {
+progress .js {
     width: 75%;
     background-color: #f0db4f;
     color: #000;
 }
 
-.python {
+progress .python {
     width: 85%;
     background-color: #306998;
 }
 
-.java {
+progress .java {
     width: 70%;
     background-color: #b07219;
 }
