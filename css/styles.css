@@ -4882,21 +4882,25 @@ td:last-child {
 }
 
 .css {
-    width: 80%;
+    width: 90%;
     background-color: #264de4;
 }
 
 .javascript {
-    width: 75%;
-    background-color:green;
+    width: 65%;
+    background-color:yellow;
 }
 
 .python {
-    width: 85%;
+    width: 65%;
     background-color: #306998;
 }
 
 .java {
-    width: 70%;
-    background-color: #b07219;
+    width: 75%;
+    background-color: greenyellow;
+}
+.sql {
+    width: 85%;
+    background-color: orange;
 }
