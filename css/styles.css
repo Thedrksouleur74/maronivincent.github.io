@@ -4740,7 +4740,7 @@ td:last-child {
 }
 
 /* Timeline container */
-.timeline-accueil .timeline {
+.timeline-accueil {
     display: flex;
     justify-content: space-between;
     align-items: center;
