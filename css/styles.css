@@ -4889,7 +4889,7 @@ td:last-child {
 .javascript {
     width: 65%;
     background-color:yellow;
-	color:#000000
+	color:#000000;
 }
 
 .python {
@@ -4900,10 +4900,16 @@ td:last-child {
 .java {
     width: 75%;
     background-color: greenyellow;
-	color:#000000
+	color:#000000;
 }
 .sql {
     width: 85%;
     background-color: orange;
-	color:#000000
+	color:#000000;
+}
+
+.php {
+    width: 65%;
+    background-color: violet;
+	color:#000000;
 }
