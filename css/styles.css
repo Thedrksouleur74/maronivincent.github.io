@@ -4857,6 +4857,7 @@ td:last-child {
 /* Barres de compétences */
 .skill {
     margin-bottom: 20px;
+	margin-left: 25%;
 }
 
 .skill-bar {
