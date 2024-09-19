@@ -4870,11 +4870,13 @@ td:last-child {
 }
 
 .skill-icon {
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
-    margin-right: 10px;
+    width: 50px;
+  height: 55px;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-bottom: -5px;
 }
+
 
 
 .progress {
