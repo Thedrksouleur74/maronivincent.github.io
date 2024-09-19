@@ -4957,10 +4957,5 @@ td:last-child {
 
 .file-preview a {
     text-decoration: none;
-    
     font-size: 1.2em;
-}
-
-.file-preview a:hover {
-    color: #0056b3;
 }
