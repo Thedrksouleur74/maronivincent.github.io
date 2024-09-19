@@ -4869,6 +4869,14 @@ td:last-child {
     margin-top: 5px;
 }
 
+.skill-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
 .progress {
     height: 25px;
     line-height: 25px;
