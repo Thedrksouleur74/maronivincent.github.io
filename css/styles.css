@@ -4913,3 +4913,28 @@ td:last-child {
     background-color: violet;
 	color:#000000;
 }
+
+.alternate-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.text-left, .text-right {
+    padding: 20px;
+}
+
+.image-left, .image-right img {
+    width: 100%;
+    height: auto;
+}
+
+.text-left, .image-right {
+    order: 1;
+}
+
+.image-left, .text-right {
+    order: 2;
+}
+
