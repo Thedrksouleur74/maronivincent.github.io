@@ -4925,6 +4925,14 @@ td:last-child {
 	color:#000000;
 }
 
+.software-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
 .alternate-section {
     display: flex;
     align-items: center;
