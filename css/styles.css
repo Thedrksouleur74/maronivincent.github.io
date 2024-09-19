@@ -2776,6 +2776,7 @@ td:last-child {
 	color         : var(--color-text-dark);
 	margin-top    : 0;
 	margin-bottom : var(--vspace-1_5);
+	text-align: center;
 }
 
 /* ------------------------------------------------------------------- 
@@ -4956,7 +4957,7 @@ td:last-child {
 
 .file-preview a {
     text-decoration: none;
-    color: #007BFF;
+    
     font-size: 1.2em;
 }
 
