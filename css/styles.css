@@ -4925,8 +4925,7 @@ td:last-child {
     padding: 20px;
 }
 
-.image-left, .image-right img {
-    width: 100%;
+.image-left, .image-right img { 
     height: auto;
 }
 
