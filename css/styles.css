@@ -4937,3 +4937,29 @@ td:last-child {
     order: 2;
 }
 
+.file-preview {
+    text-align: center;
+}
+
+.file-preview img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Pour ajuster l'image sans la déformer */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.file-preview img:hover {
+    transform: scale(1.1); /* Zoom au survol de l'image */
+}
+
+.file-preview a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1.2em;
+}
+
+.file-preview a:hover {
+    color: #0056b3;
+}
