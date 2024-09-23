@@ -4978,7 +4978,7 @@ td:last-child {
 }
 .image-container {
 	display: flex;
-	justify-content: space-between; /* Spacing between the images */
+	justify-content: center; /* Spacing between the images */
 }
 
 .image-container img {
