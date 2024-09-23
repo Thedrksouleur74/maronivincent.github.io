@@ -4976,3 +4976,11 @@ td:last-child {
     text-decoration: none;
     font-size: 1.2em;
 }
+.image-container {
+	display: flex;
+	justify-content: space-between; /* Spacing between the images */
+}
+
+.image-container img {
+	width: 20%; /* Each image takes 20% of the screen width */
+}
